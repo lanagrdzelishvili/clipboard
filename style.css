@@ -29,7 +29,7 @@ header {
 	align-items: center;
 	margin-bottom: 160px;
 }
-.history-h1 {
+.history-h1, .history-h11 {
 	font-family: 'Bai Jamjuree';
 	font-style: normal;
 	font-weight: 600;
@@ -38,8 +38,8 @@ header {
 	text-align: center;
 	letter-spacing: -0.521739px;
 	color: #4C545C;
-
-	/* width: 311px; */
+}
+.history-h11 {
 	margin-bottom: 16px;
 }
 .history-p,
@@ -128,7 +128,7 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 150px;
+	margin-bottom: 48px;
 }
 .imgc {
 	width: 310px;

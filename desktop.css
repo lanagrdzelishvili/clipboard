@@ -1,0 +1,206 @@
+@media screen and (min-width: 1440px) {
+    header {
+        background-image: url(images/bg-header-desktop.png);
+    }
+    .history {
+        margin-bottom: 163px;
+    }
+    .his {
+        display: flex;
+        gap: 10px;
+    }
+    .history-h1, .history-h11 {
+        font-size: 46px;
+        line-height: 58px;
+        letter-spacing: -0.75px;
+    }
+    .history-h11 {
+        margin-bottom: 20px;
+    }
+    .buttons {
+        flex-direction: row;
+    }
+    .button1, .button2 {
+        width: 227px;
+    }
+    .button1 {
+        padding: 13px 36px;
+    }
+    .button2 {
+        padding: 13px 33px;
+    }
+    .button1:hover, .button2:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+    .history-p {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.15px;
+    
+        width: 730px;
+    }
+    .text-p, .text-pp, .text-ppp,
+    .list1-p, .list2-p, .list3-p {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.12px;
+        
+        width: 311px;
+        margin-bottom: 0px;
+    }
+    .keep-p, 
+    .access-p, .super-p,
+    .clipboard-p {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.135px;
+    
+        width: 730px;
+        margin-bottom: 0px;
+    }
+    .keep {
+        margin-bottom: 80px;
+        gap: 19px;
+    }
+    .access {
+        margin-bottom: 100px;
+        gap: 19px;
+    }
+    .super-container {
+        margin-bottom: 95px;
+        gap: 19px;
+    }
+    .text-h3, .text-h33, .text-h333,
+    .list1-h4, .list2-h4, .list3-h4 {
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.391304px;
+    
+        width: 350px;
+    }
+    .text-p, .text-pp, .text-ppp,
+    .text-h3, .text-h33, .text-h333 {
+        text-align: start;
+    }
+    .keep-h1, .access-h2, .super-h2, .clipboard-h2 {
+        font-size: 36px;
+        line-height: 45px;
+        text-align: center;
+        letter-spacing: -0.586957px;
+    
+        width: 730px;
+    }
+    .computer-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 150px;
+        gap: 139px;
+    }
+    .imgc {
+        width: 750px;
+        margin: 0;
+        margin-left: -250px;
+    }
+    .imgd {
+        width: 900px;
+        margin: 0 0 100px 0;
+    }
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+    }
+    .list1-h4, .list2-h4, .list3-h4 {
+        margin: 40px 0 18px 0;
+    }
+    .list {
+        flex-direction: row;
+        gap: 30px;
+        margin-bottom: 192px;
+    }
+    .logos {
+        flex-direction: row;
+        gap: 100px;
+        margin-bottom: 160px;
+    }
+    .clipboard {
+        gap: 30px;
+        margin-bottom: 160px;
+    }
+    .clipboard-p {
+        margin-bottom: 28px;
+    }
+    footer {
+	    height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .footer-logo {
+        background-image: url(images/logo.svg);
+        padding: 30px 0;
+        margin: 0;
+    }
+    footer ul {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        margin-bottom: 0px;
+        row-gap: 15px;
+        column-gap: 150px;
+    }
+    footer ul li {
+        text-align: start;
+    }
+    .footer-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-bottom: 0px;
+    }
+    .contact {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .privacy {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .press {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .install {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    footer ul li:hover {
+        color: #26BBA4;
+        cursor: pointer;
+    }
+    .twiter:hover {
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(57%) sepia(81%) saturate(385%)
+        hue-rotate(121deg) brightness(92%) contrast(90%);
+    }
+    .face:hover {
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(57%) sepia(81%) saturate(385%)
+        hue-rotate(121deg) brightness(92%) contrast(90%);
+    }
+    .ins:hover {
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(57%) sepia(81%) saturate(385%)
+        hue-rotate(121deg) brightness(92%) contrast(90%);
+    }
+}
